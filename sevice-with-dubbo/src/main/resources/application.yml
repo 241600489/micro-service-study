@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+dubbo:
+  application:
+    name: service-with-dubbo
+  registry:
+    address: nacos://192.168.187.129:8848
+  protocol:
+    port: -1
+    name: dubbo
+  metadata-report: nacos://192.168.187.129:8848
